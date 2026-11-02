@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RENANDO | Editor & VFX Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo">RENANDO<span>.</span></a>
+  <nav>
+    <a href="#karya">Karya</a><a href="#awards">Awards</a><a href="#tentang">Tentang</a><a href="#perjalanan">Perjalanan</a><a href="#kontak">Kontak</a>
+  </nav>
+  <a href="#kontak" class="lets">Let's talk</a>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="hero">
+  <h2 class="big-bg">PORTFOLIO</h2>
+  <div class="hero-photo"><span>Taruh foto kamu di sini<br><small>(ganti class .hero-photo di style.css)</small></span></div>
+  <div class="hero-text">
+    <p class="hello">Hello, I'm</p>
+    <h1>RENANDO<i>.</i></h1>
+    <p class="role">EDITOR &amp;<br>VFX ARTIST</p>
+    <p class="tag">Merangkai cerita. Menciptakan realita.<br>Saya mengubah ide menjadi visual yang terasa, dari frame pertama hingga terakhir.</p>
+    <a href="#karya" class="btn">Lihat karya saya &rarr;</a>
+    <p class="loc">&#9679; Indramayu, Indonesia</p>
+  </div>
+  <ul class="stats">
+    <li><b data-count="3">0</b><span>Tahun pengalaman</span></li>
+    <li><b data-count="18">0</b><span>Proyek selesai</span></li>
+    <li><b data-count="10">0</b><span>Awards won</span></li>
+  </ul>
+  <button class="play" id="playBtn">&#9654; PLAY SHOWREEL</button>
+  <a class="scroll" href="#karya">SCROLL TO DISCOVER</a>
+</section>
+
+<!-- KARYA -->
+<section id="karya" class="sec">
+  <small class="eyebrow">01 / SELECTED WORK</small>
+  <h2 class="title">KARYA YANG BICARA.</h2>
+  <div class="filters" id="filters">
+    <button class="on" data-f="all">Semua</button><button data-f="vfx">VFX</button><button data-f="film">Film</button>
+    <button data-f="3d">3D</button><button data-f="commercial">Commercial</button><button data-f="photo">Photography</button>
+    <button data-f="visual">Visual</button><button data-f="web">Website</button>
+  </div>
+  <div class="cards" id="cards">
+    <article class="card" data-c="vfx"><div class="thumb t1"></div><h3><em>01</em> VFX SHOWREEL V2</h3><p>VFX / 2024</p></article>
+    <article class="card" data-c="film"><div class="thumb t2"></div><h3><em>02</em> SUWUNG - TRAILER</h3><p>Film / 2025</p></article>
+    <article class="card" data-c="3d"><div class="thumb t3"></div><h3><em>03</em> CYBERPUNK ENVIRONMENT</h3><p>3D / 2025</p></article>
+    <article class="card" data-c="commercial"><div class="thumb t4"></div><h3><em>04</em> BRAND CAFE</h3><p>Commercial / 2025</p></article>
+    <article class="card" data-c="photo"><div class="thumb t5"></div><h3><em>05</em> PORTRAIT SERIES</h3><p>Photography / 2024</p></article>
+    <article class="card" data-c="web"><div class="thumb t6"></div><h3><em>06</em> WEB PORTFOLIO</h3><p>Website / 2026</p></article>
+  </div>
+
+  <p class="part">BEEN PART OF<br>THE BIGGER PICTURE.</p>
+  <div class="logos"><b class="nf">N</b><b class="mg">MAGMA</b><b>RAIN</b><b class="ex">EXTRAJOSS</b><b>DIGIMARKET</b><b>ptsp</b></div>
+</section>
+
+<!-- AWARDS -->
+<section id="awards" class="sec awards">
+  <div>
+    <small class="eyebrow">RECOGNITION &amp; AWARDS</small>
+    <h2 class="title2">THE WORK.<br><em>THE RECOGNITION.</em></h2>
+    <div class="ten">&#10086; 10<sup>+</sup> &#10086;</div>
+    <p class="mini">AWARDS WON</p>
+    <p class="desc">Cerita yang dibuat sepenuh hati. Penghargaan jadi alasan untuk terus berkarya.</p>
+    <a href="#" class="link">LIHAT SERTIFIKAT &#8599;</a>
+  </div>
+  <ol class="list">
+    <li><span>01</span><div><b>1st Place</b><small>Indramayu Film Festival</small></div><i>2025</i></li>
+    <li><span>02</span><div><b>Best Competency Exam</b><small>Animation Program</small></div><i>2024</i></li>
+    <li><span>03</span><div><b>Best Short Film</b><small>Gokar Party</small></div><i>2023</i></li>
+    <li><span>04</span><div><b>1st Place, Short Film</b><small>Hero Theme</small></div><i>2022</i></li>
+    <li><span>05</span><div><b>1st Place, Short Film</b><small>Hero Theme</small></div><i>2021</i></li>
+    <li><span>06</span><div><b>Best Creative Video</b><small>Creative Video Competition</small></div><i>2020</i></li>
+  </ol>
+</section>
+
+<!-- RAW TO REAL -->
+<section class="sec raw">
+  <div>
+    <small class="eyebrow">A LOOK UNDER THE SURFACE</small>
+    <h2 class="title2">FROM RAW.<br><em>TO REAL.</em></h2>
+    <p class="desc">Satu scene. Berlapis proses.<br>Lihat bagaimana sebuah 3D environment berubah dan bentuk dasar menjadi dunia yang hidup.</p>
+  </div>
+  <div class="compare" id="compare">
+    <div class="after"></div><div class="before"></div>
+    <input type="range" min="0" max="100" value="50" id="slider" aria-label="Before after">
+    <span class="knob" id="knob"></span>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang" class="sec">
+  <small class="eyebrow">02 / BEHIND THE FRAMES</small>
+  <div class="about-top">
+    <h2 class="title">BUKAN SEKADAR VISUAL.<br><em>TAPI CARA BERCERITA.</em></h2>
+    <p class="desc">Saya Renando, visual artist dari Indramayu. Bekerja di antara film, VFX, CGI dan post-production, menggabungkan sisi kreatif dan teknis untuk membangun cerita yang bermakna.</p>
+  </div>
+  <div class="about">
+    <div>
+      <h3 class="h3">EDUCATION &amp; SKILLS</h3>
+      <p class="k">PENDIDIKAN</p>
+      <p class="it"><b>SMKN 1 Indramayu</b>Animation, visual effects, CGI &amp; digital media</p>
+      <p class="it"><b>Dalang Digital Studio</b>6-month VFX &amp; post-production internship</p>
+      <p class="it"><b>Courses &amp; Workshops</b>Videolabs · RitgArt · Mindplace</p>
+      <p class="k">CREATIVE TOOLKIT</p>
+      <div class="tags"><span>VFX &amp; CGI</span><span>Compositing</span><span>3D Environment</span><span>Video Editing</span><span>Color Grading</span><span>Storytelling</span><span>Photography</span><span>Web Development</span></div>
+      <div class="apps"><i>Pr</i><i>Ae</i><i>Bl</i><i>Ps</i><i>Lr</i><i>Dv</i></div>
+    </div>
+    <div>
+      <h3 class="h3">FROM IDEA TO FINAL FRAME</h3>
+      <ol class="steps">
+        <li><span>01</span><b>THE IDEA</b>Mendengar cerita Anda. Menentukan pesan, arah visual, dan rasa yang ingin dibawa.</li>
+        <li><span>02</span><b>THE PLAN</b>Menyusun konsep, referensi, dan alur kerja sebelum produksi dimulai.</li>
+        <li><span>03</span><b>THE CRAFT</b>Editing, compositing, dan visual effects. Menyatukan setiap detail.</li>
+        <li><span>04</span><b>THE POLISH</b>Menyelaraskan warna, nuansa, dan suara supaya terasa utuh.</li>
+        <li><span>05</span><b>THE FINAL FRAME</b>Review bersama, tambahan terakhir, lalu siap menemui penonton.</li>
+      </ol>
+    </div>
+    <blockquote><q>Dari konsep dan storytelling, sampai visual yang sinematik.</q><cite>Renando</cite></blockquote>
+  </div>
+</section>
+
+<!-- PERJALANAN -->
+<section id="perjalanan" class="sec journey">
+  <small class="eyebrow">03 / THE JOURNEY</small>
+  <h2 class="title">TERUS BERGERAK. TERUS BERKARYA.</h2>
+  <div class="jwrap">
+    <ul class="tl">
+      <li class="now"><small>2026 - SEKARANG</small><b>Freelance Creative</b><span>Film &amp; branded content</span><p>Mengembangkan konsep dan naskah film pendek, serta memproduksi konten sinematik untuk brand cafe, fashion, dan hijab.</p></li>
+      <li><small>2023 - 2025</small><b>VFX Artist</b><span>Film &amp; commercial production</span></li>
+      <li><small>2023 - 6 BULAN</small><b>VFX Internship</b><span>Dalang Digital Studio</span></li>
+      <li><small>2022 - 2023</small><b>Freelance Editor</b><span>Video, photography &amp; film</span></li>
+      <li><small>2018 - SEKARANG</small><b>Content Creator</b><span>DuangZ Studio</span></li>
+    </ul>
+    <aside>
+      <small>A FEW MILESTONES</small>
+      <h3 class="mile">LITTLE WINS.<br><em>BIG MEANING.</em></h3>
+      <p>Juara 1 Movie Event <i>2025</i></p><p>Lulusan Terbaik 2 <i>2025</i></p><p>Dalang Digital Studio <i>2023</i></p><p>Juara E-Course <i>2024</i></p>
+    </aside>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="sec contact">
+  <div>
+    <small class="eyebrow">04 / YOUR NEXT STORY</small>
+    <h2 class="title2 white">LET'S WORK<br>TOGETHER<i>.</i></h2>
+    <p class="desc">Punya cerita yang ingin diwujudkan?<br>Mari buat sesuatu yang layak ditonton.</p>
+    <a href="mailto:hello.renando@gmail.com" class="btn ghost">&#8599; MULAI PERCAKAPAN</a>
+  </div>
+  <ul class="info">
+    <li><small>EMAIL</small><b>hello.renando@gmail.com</b></li>
+    <li><small>INSTAGRAM</small><b>@renart.visual</b></li>
+    <li><small>PHONE / WHATSAPP</small><b>+62 877-8692-3444</b></li>
+    <li><small>BASED IN</small><b>Indramayu, Indonesia</b></li>
+  </ul>
+  <div class="reel"><p>MAKE IT<br><em>FEEL REAL.</em></p><button class="redplay" id="playBtn2">&#9654;</button></div>
+</section>
+</main>
+
+<footer><a class="logo" href="#home">RENANDO<span>.</span></a><p>Ceritakan proyek Anda &middot; &copy; 2026</p></footer>
+
+<script src="script.js"></script>
+</body>
+                                                             </html>
