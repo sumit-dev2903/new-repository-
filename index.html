@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RENADO — Creative Experience</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- GSAP Animation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <!-- Scroll Animation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+  <!-- CURSOR SPOTLIGHT -->
+  <div class="spotlight"></div>
+  <div class="cursor">
+    <span>VIEW</span>
+  </div>
+
+  <!-- PRELOADER -->
+  <div class="loader">
+    <div class="loader-content">
+      <h1>RENADO<span>.</span></h1>
+      <div class="loader-track">
+        <div class="loader-progress"></div>
+      </div>
+      <p>LOADING EXPERIENCE</p>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <a href="#" class="logo">RENADO<span>.</span></a>
+
+    <nav class="navigation">
+      <a href="#work">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#services">SERVICES</a>
+      <a href="#contact">CONTACT ↗</a>
+    </nav>
+
+    <button class="menu-button">
+      <span>MENU</span>
+      <span class="menu-icon">+</span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-meta">
+        <span>INDEPENDENT CREATIVE STUDIO</span>
+        <span>INDIA — WORLDWIDE</span>
+      </div>
+
+      <div class="hero-heading">
+        <h1>
+          <span class="line"><span>WE CREATE</span></span>
+          <span class="line"><span class="outline">DIGITAL</span></span>
+          <span class="line"><span>EXPERIENCES<span class="red">.</span></span></span>
+        </h1>
+      </div>
+
+      <div class="hero-description">
+        <p>
+          We build unforgettable digital experiences
+          through design, creativity and technology.
+        </p>
+
+        <a href="#work" class="scroll-circle">
+          <span>SCROLL</span>
+          <span class="arrow">↓</span>
+        </a>
+      </div>
+
+      <div class="hero-visual reveal-image">
+        <img
+          src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?q=80&w=1800"
+          alt="Creative digital artwork"
+        >
+
+        <div class="visual-caption">
+          <span>01 / CREATIVE DIRECTION</span>
+          <span>RENADO STUDIO © 2026</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- WORK -->
+    <section class="work section" id="work">
+
+      <div class="section-meta">
+        <span>01 — SELECTED WORK</span>
+        <span>2024 — 2026</span>
+      </div>
+
+      <div class="section-title">
+        <h2>
+          SELECTED<br>
+          <span class="outline">PROJECTS</span><span class="red">.</span>
+        </h2>
+      </div>
+
+      <div class="projects">
+
+        <article class="project">
+          <a href="#" class="project-image cursor-view">
+            <img
+              src="https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=1600"
+              alt="Creative branding project"
+            >
+            <span class="project-overlay"></span>
+            <span class="project-index">01</span>
+          </a>
+
+          <div class="project-details">
+            <h3>RENADO®</h3>
+            <p>BRANDING / DIGITAL EXPERIENCE</p>
+            <span>↗</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <a href="#" class="project-image cursor-view">
+            <img
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1600"
+              alt="Digital art project"
+            >
+            <span class="project-overlay"></span>
+            <span class="project-index">02</span>
+          </a>
+
+          <div class="project-details">
+            <h3>NEON FUTURE</h3>
+            <p>ART DIRECTION / MOTION</p>
+            <span>↗</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+      <div class="section-meta">
+        <span>02 — WHO WE ARE</span>
+        <span>CREATIVE THINKERS</span>
+      </div>
+
+      <h2 class="about-heading">
+        WE DON'T JUST<br>
+        MAKE THINGS<br>
+        <span class="outline">LOOK GOOD.</span>
+      </h2>
+
+      <div class="about-content">
+
+        <p>
+          We create digital experiences that connect
+          people, challenge conventions and transform
+          brands into something unforgettable.
+        </p>
+
+        <div class="stats">
+
+          <div class="stat">
+            <h3><span class="counter" data-target="25">0</span><span>+</span></h3>
+            <p>PROJECTS COMPLETED</p>
+          </div>
+
+          <div class="stat">
+            <h3><span class="counter" data-target="15">0</span><span>+</span></h3>
+            <p>HAPPY CLIENTS</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+
+      <div class="section-meta">
+        <span>03 — WHAT WE DO</span>
+        <span>OUR EXPERTISE</span>
+      </div>
+
+      <h2>
+        OUR<br>
+        <span class="outline">SERVICES</span><span class="red">.</span>
+      </h2>
+
+      <div class="services-list">
+
+        <a href="#contact" class="service">
+          <span class="service-number">01</span>
+          <h3>BRANDING & IDENTITY</h3>
+          <span class="service-arrow">↗</span>
+        </a>
+
+        <a href="#contact" class="service">
+          <span class="service-number">02</span>
+          <h3>WEB DESIGN & DEVELOPMENT</h3>
+          <span class="service-arrow">↗</span>
+        </a>
+
+        <a href="#contact" class="service">
+          <span class="service-number">03</span>
+          <h3>MOTION & ANIMATION</h3>
+          <span class="service-arrow">↗</span>
+        </a>
+
+        <a href="#contact" class="service">
+          <span class="service-number">04</span>
+          <h3>ART DIRECTION</h3>
+          <span class="service-arrow">↗</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+
+      <div class="section-meta">
+        <span>04 — GET IN TOUCH</span>
+        <span>LET'S CREATE SOMETHING</span>
+      </div>
+
+      <h2>
+        LET'S WORK<br>
+        <span class="outline">TOGETHER</span><span>.</span>
+      </h2>
+
+      <a href="mailto:hello@example.com" class="contact-button">
+        HAVE A PROJECT IN MIND? LET'S TALK ↗
+      </a>
+
+      <footer>
+        <div class="footer-socials">
+          <a href="#">INSTAGRAM ↗</a>
+          <a href="#">BEHANCE ↗</a>
+          <a href="#">DRIBBBLE ↗</a>
+        </div>
+
+        <p>© RENADO STUDIO 2026</p>
+      </footer>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
